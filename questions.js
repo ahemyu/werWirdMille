@@ -1,383 +1,383 @@
 const QUESTIONS = {
     easy: [
         {
-            question: "What is the capital of France?",
-            answers: ["London", "Berlin", "Paris", "Madrid"],
-            correct: "Paris"
+            question: "Which band released the album 'OK Computer' in 1997?",
+            answers: ["Oasis", "Radiohead", "Blur", "Pulp"],
+            correct: "Radiohead"
         },
         {
-            question: "How many continents are there?",
-            answers: ["5", "6", "7", "8"],
-            correct: "7"
+            question: "What is the capital of Bhutan?",
+            answers: ["Kathmandu", "Thimphu", "Dhaka", "Colombo"],
+            correct: "Thimphu"
         },
         {
-            question: "What color do you get when you mix red and white?",
-            answers: ["Pink", "Orange", "Purple", "Brown"],
-            correct: "Pink"
+            question: "In which language is the word 'Schadenfreude' originally from?",
+            answers: ["Dutch", "Swedish", "German", "Danish"],
+            correct: "German"
         },
         {
-            question: "How many legs does a spider have?",
-            answers: ["6", "8", "10", "12"],
-            correct: "8"
+            question: "What particle gives objects mass according to the Standard Model?",
+            answers: ["Photon", "Higgs boson", "Electron", "Neutrino"],
+            correct: "Higgs boson"
         },
         {
-            question: "What is the largest planet in our solar system?",
-            answers: ["Earth", "Mars", "Jupiter", "Saturn"],
-            correct: "Jupiter"
+            question: "Which country has the most UNESCO World Heritage Sites?",
+            answers: ["France", "China", "Italy", "Spain"],
+            correct: "Italy"
         },
         {
-            question: "What is 10 + 5?",
-            answers: ["10", "15", "20", "25"],
-            correct: "15"
+            question: "What is the runtime complexity of binary search?",
+            answers: ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+            correct: "O(log n)"
         },
         {
-            question: "Which animal is known as the King of the Jungle?",
-            answers: ["Tiger", "Lion", "Elephant", "Bear"],
-            correct: "Lion"
+            question: "Who directed the 1982 film 'Blade Runner'?",
+            answers: ["Stanley Kubrick", "Ridley Scott", "Steven Spielberg", "James Cameron"],
+            correct: "Ridley Scott"
         },
         {
-            question: "How many days are in a week?",
-            answers: ["5", "6", "7", "8"],
-            correct: "7"
+            question: "What is the official language of Ethiopia?",
+            answers: ["Swahili", "Amharic", "Tigrinya", "Oromo"],
+            correct: "Amharic"
         },
         {
-            question: "What is the opposite of hot?",
-            answers: ["Warm", "Cool", "Cold", "Freezing"],
-            correct: "Cold"
+            question: "Which celestial body has the most moons in our solar system?",
+            answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            correct: "Saturn"
         },
         {
-            question: "What do bees make?",
-            answers: ["Milk", "Honey", "Silk", "Wax"],
-            correct: "Honey"
+            question: "What does the acronym JPEG stand for?",
+            answers: ["Joint Photo Experts Group", "Java Picture Extension Group", "Joint Pixel Encoding Grid", "Just Pretty Electronic Graphics"],
+            correct: "Joint Photo Experts Group"
         },
         {
-            question: "How many sides does a triangle have?",
-            answers: ["2", "3", "4", "5"],
-            correct: "3"
+            question: "In which ocean is the Mariana Trench located?",
+            answers: ["Atlantic", "Indian", "Pacific", "Arctic"],
+            correct: "Pacific"
         },
         {
-            question: "What is the first letter of the alphabet?",
-            answers: ["A", "B", "C", "D"],
-            correct: "A"
+            question: "What is the smallest country in Africa by land area?",
+            answers: ["Gambia", "Seychelles", "Mauritius", "Comoros"],
+            correct: "Seychelles"
         },
         {
-            question: "Which planet is closest to the Sun?",
-            answers: ["Venus", "Earth", "Mercury", "Mars"],
-            correct: "Mercury"
+            question: "Which programming paradigm does Haskell primarily support?",
+            answers: ["Object-oriented", "Functional", "Procedural", "Logic"],
+            correct: "Functional"
         },
         {
-            question: "What is frozen water called?",
-            answers: ["Steam", "Ice", "Snow", "Hail"],
-            correct: "Ice"
+            question: "Who composed the opera 'The Magic Flute'?",
+            answers: ["Bach", "Mozart", "Beethoven", "Wagner"],
+            correct: "Mozart"
         },
         {
-            question: "How many hours are in a day?",
-            answers: ["12", "24", "48", "60"],
-            correct: "24"
+            question: "What is the term for a word that reads the same backwards?",
+            answers: ["Anagram", "Palindrome", "Homophone", "Acronym"],
+            correct: "Palindrome"
         },
         {
-            question: "What shape is a ball?",
-            answers: ["Square", "Triangle", "Circle", "Rectangle"],
-            correct: "Circle"
+            question: "Which element has the highest melting point?",
+            answers: ["Iron", "Titanium", "Tungsten", "Carbon"],
+            correct: "Tungsten"
         },
         {
-            question: "What is the color of the sky on a clear day?",
-            answers: ["Green", "Blue", "Red", "Yellow"],
-            correct: "Blue"
+            question: "What is the capital of Kazakhstan?",
+            answers: ["Almaty", "Astana", "Bishkek", "Tashkent"],
+            correct: "Astana"
         },
         {
-            question: "How many months are in a year?",
-            answers: ["10", "11", "12", "13"],
-            correct: "12"
+            question: "In music theory, what interval is an octave?",
+            answers: ["6 semitones", "8 semitones", "10 semitones", "12 semitones"],
+            correct: "12 semitones"
         },
         {
-            question: "What animal says 'meow'?",
-            answers: ["Dog", "Cat", "Cow", "Bird"],
-            correct: "Cat"
+            question: "What type of cloud computing model is Dropbox an example of?",
+            answers: ["IaaS", "PaaS", "SaaS", "FaaS"],
+            correct: "SaaS"
         },
         {
-            question: "What is 2 + 2?",
-            answers: ["2", "3", "4", "5"],
-            correct: "4"
+            question: "Which strait separates Europe from Africa?",
+            answers: ["Bosphorus", "Gibraltar", "Hormuz", "Dover"],
+            correct: "Gibraltar"
         }
     ],
     medium: [
         {
-            question: "Who painted the Mona Lisa?",
-            answers: ["Picasso", "Van Gogh", "Leonardo da Vinci", "Michelangelo"],
-            correct: "Leonardo da Vinci"
+            question: "What is the only mammal capable of true flight?",
+            answers: ["Flying squirrel", "Sugar glider", "Bat", "Colugo"],
+            correct: "Bat"
         },
         {
-            question: "What is the smallest country in the world?",
-            answers: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-            correct: "Vatican City"
+            question: "Which neurotransmitter is associated with Parkinson's disease?",
+            answers: ["Serotonin", "Dopamine", "GABA", "Acetylcholine"],
+            correct: "Dopamine"
         },
         {
-            question: "In which year did World War II end?",
-            answers: ["1943", "1944", "1945", "1946"],
-            correct: "1945"
+            question: "What is the oldest continuously inhabited city in the world?",
+            answers: ["Athens", "Damascus", "Jerusalem", "Jericho"],
+            correct: "Damascus"
         },
         {
-            question: "What is the chemical symbol for gold?",
-            answers: ["Go", "Gd", "Au", "Ag"],
-            correct: "Au"
+            question: "In which year was the Linux kernel first released?",
+            answers: ["1989", "1991", "1993", "1995"],
+            correct: "1991"
         },
         {
-            question: "How many strings does a standard guitar have?",
-            answers: ["4", "5", "6", "7"],
-            correct: "6"
+            question: "What is the national instrument of Scotland?",
+            answers: ["Fiddle", "Bagpipes", "Harp", "Accordion"],
+            correct: "Bagpipes"
         },
         {
-            question: "What is the longest river in the world?",
-            answers: ["Amazon", "Nile", "Yangtze", "Mississippi"],
-            correct: "Nile"
+            question: "Which Japanese term means 'continuous improvement'?",
+            answers: ["Kaizen", "Kanban", "Ikigai", "Wabi-sabi"],
+            correct: "Kaizen"
         },
         {
-            question: "Who wrote 'Romeo and Juliet'?",
-            answers: ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
-            correct: "William Shakespeare"
+            question: "What is the SI unit of electrical resistance?",
+            answers: ["Ampere", "Volt", "Ohm", "Watt"],
+            correct: "Ohm"
         },
         {
-            question: "What is the capital of Australia?",
-            answers: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-            correct: "Canberra"
+            question: "Which country was NOT part of Yugoslavia?",
+            answers: ["Albania", "Bosnia", "Croatia", "Slovenia"],
+            correct: "Albania"
         },
         {
-            question: "How many bones are in the human body?",
-            answers: ["186", "206", "226", "246"],
-            correct: "206"
+            question: "Who wrote the novella 'The Metamorphosis'?",
+            answers: ["Franz Kafka", "Albert Camus", "Jean-Paul Sartre", "Hermann Hesse"],
+            correct: "Franz Kafka"
         },
         {
-            question: "What is the speed of light?",
-            answers: ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
-            correct: "300,000 km/s"
+            question: "What is the hexadecimal equivalent of decimal 255?",
+            answers: ["EE", "FF", "F0", "FE"],
+            correct: "FF"
         },
         {
-            question: "Which element has the atomic number 1?",
-            answers: ["Helium", "Hydrogen", "Oxygen", "Carbon"],
-            correct: "Hydrogen"
+            question: "Which layer of the atmosphere contains the ozone layer?",
+            answers: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+            correct: "Stratosphere"
         },
         {
-            question: "What year did the Titanic sink?",
-            answers: ["1910", "1911", "1912", "1913"],
-            correct: "1912"
+            question: "What is the capital of Kyrgyzstan?",
+            answers: ["Bishkek", "Dushanbe", "Tashkent", "Ashgabat"],
+            correct: "Bishkek"
         },
         {
-            question: "How many keys are on a standard piano?",
-            answers: ["76", "82", "88", "92"],
-            correct: "88"
+            question: "Which bassist was a founding member of both Led Zeppelin and The Yardbirds?",
+            answers: ["John Paul Jones", "Jack Bruce", "John Entwistle", "Paul McCartney"],
+            correct: "John Paul Jones"
         },
         {
-            question: "What is the capital of Canada?",
-            answers: ["Toronto", "Vancouver", "Montreal", "Ottawa"],
-            correct: "Ottawa"
+            question: "What does REST stand for in web APIs?",
+            answers: ["Remote Execution State Transfer", "Representational State Transfer", "Remote State Execution Tool", "Resource State Transfer"],
+            correct: "Representational State Transfer"
         },
         {
-            question: "Who discovered penicillin?",
-            answers: ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"],
-            correct: "Alexander Fleming"
+            question: "Which ancient civilization created the first known writing system?",
+            answers: ["Egyptians", "Phoenicians", "Sumerians", "Greeks"],
+            correct: "Sumerians"
         },
         {
-            question: "What is the largest ocean on Earth?",
-            answers: ["Atlantic", "Indian", "Arctic", "Pacific"],
-            correct: "Pacific"
+            question: "What is the process by which plants lose water vapor called?",
+            answers: ["Osmosis", "Diffusion", "Transpiration", "Evapotranspiration"],
+            correct: "Transpiration"
         },
         {
-            question: "How many cards are in a standard deck?",
-            answers: ["48", "50", "52", "54"],
-            correct: "52"
+            question: "Which sea separates Italy from the Balkans?",
+            answers: ["Ionian Sea", "Adriatic Sea", "Aegean Sea", "Tyrrhenian Sea"],
+            correct: "Adriatic Sea"
         },
         {
-            question: "What is the square root of 144?",
-            answers: ["10", "11", "12", "13"],
-            correct: "12"
+            question: "What is the fourth dimension in spacetime?",
+            answers: ["Energy", "Time", "Mass", "Velocity"],
+            correct: "Time"
         },
         {
-            question: "Which gas do plants absorb from the atmosphere?",
-            answers: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-            correct: "Carbon Dioxide"
+            question: "Which protocol operates on port 22 by default?",
+            answers: ["HTTP", "FTP", "SSH", "SMTP"],
+            correct: "SSH"
         },
         {
-            question: "What is the currency of Japan?",
-            answers: ["Yuan", "Won", "Yen", "Ringgit"],
-            correct: "Yen"
+            question: "Who composed the opera 'Carmen'?",
+            answers: ["Verdi", "Puccini", "Bizet", "Rossini"],
+            correct: "Bizet"
         },
         {
-            question: "How many teeth does an adult human have?",
-            answers: ["28", "30", "32", "34"],
-            correct: "32"
+            question: "What is the name of the deepest point in the Atlantic Ocean?",
+            answers: ["Challenger Deep", "Puerto Rico Trench", "Java Trench", "Tonga Trench"],
+            correct: "Puerto Rico Trench"
         },
         {
-            question: "What is the hardest natural substance on Earth?",
-            answers: ["Gold", "Iron", "Diamond", "Platinum"],
-            correct: "Diamond"
+            question: "In linguistics, what is a false cognate called?",
+            answers: ["Homophone", "False friend", "Pseudo-word", "Loan word"],
+            correct: "False friend"
         },
         {
-            question: "Who was the first person to walk on the Moon?",
-            answers: ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"],
-            correct: "Neil Armstrong"
+            question: "Which vitamin is also known as ascorbic acid?",
+            answers: ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+            correct: "Vitamin C"
         },
         {
-            question: "What is the main ingredient in guacamole?",
-            answers: ["Tomato", "Avocado", "Pepper", "Onion"],
-            correct: "Avocado"
+            question: "What is the longest-running scripted TV show in history?",
+            answers: ["Doctor Who", "The Simpsons", "Guiding Light", "General Hospital"],
+            correct: "Guiding Light"
         },
         {
-            question: "How many players are on a soccer team?",
-            answers: ["9", "10", "11", "12"],
-            correct: "11"
+            question: "Which sorting algorithm has the best average time complexity?",
+            answers: ["Bubble sort", "Insertion sort", "Merge sort", "Selection sort"],
+            correct: "Merge sort"
         }
     ],
     hard: [
         {
-            question: "What is the Higgs boson also known as?",
-            answers: ["God particle", "Energy particle", "Mass particle", "Quantum particle"],
-            correct: "God particle"
+            question: "What is the Roche limit?",
+            answers: ["Maximum distance for tidal locking", "Distance where tidal forces destroy satellites", "Minimum orbital velocity", "Maximum escape velocity"],
+            correct: "Distance where tidal forces destroy satellites"
         },
         {
-            question: "Who developed the theory of general relativity?",
-            answers: ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Stephen Hawking"],
-            correct: "Albert Einstein"
+            question: "Which album contains the song 'Us and Them' by Pink Floyd?",
+            answers: ["Wish You Were Here", "The Wall", "The Dark Side of the Moon", "Animals"],
+            correct: "The Dark Side of the Moon"
         },
         {
-            question: "What is the only country that borders both the Atlantic and Indian oceans?",
-            answers: ["Brazil", "South Africa", "Australia", "Indonesia"],
+            question: "What is the time complexity of the A* pathfinding algorithm?",
+            answers: ["O(n)", "O(n log n)", "O(b^d)", "O(n²)"],
+            correct: "O(b^d)"
+        },
+        {
+            question: "In which language family does Finnish belong?",
+            answers: ["Indo-European", "Uralic", "Altaic", "Finno-Ugric subset of Indo-European"],
+            correct: "Uralic"
+        },
+        {
+            question: "What is the name of the hadron collider at CERN?",
+            answers: ["Large Electron Collider", "Super Proton Synchrotron", "Large Hadron Collider", "Relativistic Heavy Ion Collider"],
+            correct: "Large Hadron Collider"
+        },
+        {
+            question: "Which country has the highest Gini coefficient (income inequality)?",
+            answers: ["United States", "South Africa", "Brazil", "China"],
             correct: "South Africa"
         },
         {
-            question: "In which year did the Berlin Wall fall?",
-            answers: ["1987", "1988", "1989", "1990"],
-            correct: "1989"
+            question: "What is the busiest shipping lane in the world?",
+            answers: ["Panama Canal", "Suez Canal", "Strait of Malacca", "English Channel"],
+            correct: "English Channel"
         },
         {
-            question: "What is the most abundant element in the universe?",
-            answers: ["Oxygen", "Carbon", "Helium", "Hydrogen"],
-            correct: "Hydrogen"
+            question: "Who proved Fermat's Last Theorem in 1995?",
+            answers: ["Grigori Perelman", "Andrew Wiles", "Terence Tao", "Alexander Grothendieck"],
+            correct: "Andrew Wiles"
         },
         {
-            question: "Who wrote '1984'?",
-            answers: ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Arthur C. Clarke"],
-            correct: "George Orwell"
+            question: "What is the formal name for the study of mushrooms?",
+            answers: ["Bryology", "Mycology", "Phycology", "Lichenology"],
+            correct: "Mycology"
         },
         {
-            question: "What is the derivative of x² with respect to x?",
-            answers: ["x", "2x", "x²", "2x²"],
-            correct: "2x"
+            question: "Which Byzantine emperor reconquered much of the Western Roman Empire?",
+            answers: ["Constantine XI", "Justinian I", "Basil II", "Heraclius"],
+            correct: "Justinian I"
         },
         {
-            question: "Which ancient wonder of the world still exists today?",
-            answers: ["Hanging Gardens", "Colossus of Rhodes", "Great Pyramid of Giza", "Lighthouse of Alexandria"],
-            correct: "Great Pyramid of Giza"
+            question: "What does CAP theorem stand for in distributed systems?",
+            answers: ["Capacity, Availability, Persistence", "Consistency, Availability, Partition tolerance", "Concurrency, Atomicity, Persistence", "Consistency, Atomicity, Performance"],
+            correct: "Consistency, Availability, Partition tolerance"
         },
         {
-            question: "What is the smallest prime number?",
-            answers: ["0", "1", "2", "3"],
-            correct: "2"
+            question: "In which constellation is the star Betelgeuse located?",
+            answers: ["Taurus", "Orion", "Canis Major", "Gemini"],
+            correct: "Orion"
         },
         {
-            question: "Who composed 'The Four Seasons'?",
-            answers: ["Bach", "Mozart", "Vivaldi", "Beethoven"],
-            correct: "Vivaldi"
+            question: "What is the Mohs hardness of corundum (ruby/sapphire)?",
+            answers: ["7", "8", "9", "10"],
+            correct: "9"
         },
         {
-            question: "What is the capital of Mongolia?",
-            answers: ["Astana", "Ulaanbaatar", "Bishkek", "Dushanbe"],
-            correct: "Ulaanbaatar"
+            question: "Who developed the lambda calculus?",
+            answers: ["Alan Turing", "Alonzo Church", "Kurt Gödel", "John von Neumann"],
+            correct: "Alonzo Church"
         },
         {
-            question: "What does DNA stand for?",
-            answers: ["Deoxyribonucleic Acid", "Dinitrogen Acid", "Deoxy Nucleic Acid", "Dynamic Nuclear Acid"],
-            correct: "Deoxyribonucleic Acid"
+            question: "What is the longest river in Asia?",
+            answers: ["Ganges", "Mekong", "Yangtze", "Yellow River"],
+            correct: "Yangtze"
         },
         {
-            question: "Which programming language was created by Guido van Rossum?",
-            answers: ["Java", "C++", "Python", "Ruby"],
-            correct: "Python"
+            question: "Which scale measures the perceived loudness of sound?",
+            answers: ["Decibel", "Phon", "Hertz", "Pascal"],
+            correct: "Phon"
         },
         {
-            question: "What is the largest desert in the world?",
-            answers: ["Sahara", "Arabian", "Gobi", "Antarctic"],
-            correct: "Antarctic"
+            question: "What was the first artificial satellite to orbit Earth?",
+            answers: ["Explorer 1", "Vanguard 1", "Sputnik 1", "Telstar 1"],
+            correct: "Sputnik 1"
         },
         {
-            question: "Who painted 'The Starry Night'?",
-            answers: ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
-            correct: "Vincent van Gogh"
+            question: "In chess, what is a zugzwang?",
+            answers: ["Forced checkmate", "Position where any move worsens your position", "Stalemate position", "Opening trap"],
+            correct: "Position where any move worsens your position"
         },
         {
-            question: "What is the name of the largest moon of Saturn?",
-            answers: ["Europa", "Ganymede", "Titan", "Callisto"],
-            correct: "Titan"
+            question: "Which economist wrote 'The General Theory of Employment, Interest and Money'?",
+            answers: ["Adam Smith", "Karl Marx", "John Maynard Keynes", "Milton Friedman"],
+            correct: "John Maynard Keynes"
         },
         {
-            question: "In which year was the first iPhone released?",
-            answers: ["2005", "2006", "2007", "2008"],
-            correct: "2007"
+            question: "What is the name of the effect where light bends around massive objects?",
+            answers: ["Doppler effect", "Gravitational lensing", "Cherenkov radiation", "Rayleigh scattering"],
+            correct: "Gravitational lensing"
         },
         {
-            question: "What is the rarest blood type?",
-            answers: ["O-", "AB-", "B-", "A-"],
-            correct: "AB-"
+            question: "Which programming language uses 'monads' as a core concept?",
+            answers: ["Lisp", "Haskell", "Prolog", "Erlang"],
+            correct: "Haskell"
         },
         {
-            question: "Who discovered the electron?",
-            answers: ["Ernest Rutherford", "J.J. Thomson", "Niels Bohr", "James Chadwick"],
-            correct: "J.J. Thomson"
+            question: "What is the capital of Turkmenistan?",
+            answers: ["Ashgabat", "Dushanbe", "Bishkek", "Tashkent"],
+            correct: "Ashgabat"
         },
         {
-            question: "What is the longest bone in the human body?",
-            answers: ["Tibia", "Humerus", "Femur", "Radius"],
-            correct: "Femur"
+            question: "Who wrote the opera cycle 'Der Ring des Nibelungen'?",
+            answers: ["Mozart", "Verdi", "Wagner", "Strauss"],
+            correct: "Wagner"
         },
         {
-            question: "What is the currency of Switzerland?",
-            answers: ["Euro", "Swiss Franc", "Krona", "Krone"],
-            correct: "Swiss Franc"
+            question: "What is the name of the boundary beyond which nothing can escape a black hole?",
+            answers: ["Photon sphere", "Event horizon", "Schwarzschild radius", "Singularity"],
+            correct: "Event horizon"
         },
         {
-            question: "Who is credited with inventing the World Wide Web?",
-            answers: ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Larry Page"],
-            correct: "Tim Berners-Lee"
+            question: "In linguistics, what is the Sapir-Whorf hypothesis about?",
+            answers: ["Language evolution", "Language influences thought", "Universal grammar", "Phonetic drift"],
+            correct: "Language influences thought"
         },
         {
-            question: "What is the chemical formula for table salt?",
-            answers: ["NaCl", "KCl", "CaCl2", "MgCl2"],
-            correct: "NaCl"
+            question: "Which mountain range separates Europe from Asia?",
+            answers: ["Caucasus", "Urals", "Altai", "Hindu Kush"],
+            correct: "Urals"
         },
         {
-            question: "Which philosopher wrote 'The Republic'?",
-            answers: ["Aristotle", "Socrates", "Plato", "Epicurus"],
-            correct: "Plato"
+            question: "What is the halting problem in computer science?",
+            answers: ["Bug that stops execution", "Problem of determining if a program terminates", "Race condition", "Memory leak"],
+            correct: "Problem of determining if a program terminates"
         },
         {
-            question: "What is the speed of sound in air at sea level?",
-            answers: ["243 m/s", "343 m/s", "443 m/s", "543 m/s"],
-            correct: "343 m/s"
+            question: "Which particle mediates the electromagnetic force?",
+            answers: ["Gluon", "W boson", "Photon", "Graviton"],
+            correct: "Photon"
         },
         {
-            question: "What is the half-life of Carbon-14?",
-            answers: ["4,730 years", "5,730 years", "6,730 years", "7,730 years"],
-            correct: "5,730 years"
+            question: "What is the name of the treaty that created the European Union?",
+            answers: ["Treaty of Rome", "Maastricht Treaty", "Lisbon Treaty", "Paris Treaty"],
+            correct: "Maastricht Treaty"
         },
         {
-            question: "Who was the first woman to win a Nobel Prize?",
-            answers: ["Rosalind Franklin", "Marie Curie", "Dorothy Hodgkin", "Ada Lovelace"],
-            correct: "Marie Curie"
-        },
-        {
-            question: "What is the official language of Brazil?",
-            answers: ["Spanish", "Portuguese", "French", "English"],
-            correct: "Portuguese"
-        },
-        {
-            question: "What is the Planck constant approximately equal to?",
-            answers: ["6.626 × 10⁻³⁴ J·s", "6.626 × 10⁻²⁴ J·s", "6.626 × 10⁻¹⁴ J·s", "6.626 × 10⁻⁴ J·s"],
-            correct: "6.626 × 10⁻³⁴ J·s"
-        },
-        {
-            question: "Which empire was ruled by Suleiman the Magnificent?",
-            answers: ["Roman Empire", "Byzantine Empire", "Ottoman Empire", "Mongol Empire"],
-            correct: "Ottoman Empire"
+            question: "Who discovered the structure of benzene in a dream?",
+            answers: ["Dmitri Mendeleev", "August Kekulé", "Linus Pauling", "Robert Bunsen"],
+            correct: "August Kekulé"
         }
     ]
 };
