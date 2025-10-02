@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wer wird Millionär?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Wer wird Millionär? 🎯</h1>
+        </header>
+
+        <!-- Start Screen -->
+        <div id="startScreen" class="screen active">
+            <h2>Welcome to the Quiz!</h2>
+            <div class="player-setup">
+                <div class="player-input">
+                    <label for="player1Name">Player 1 Name:</label>
+                    <input type="text" id="player1Name" placeholder="Enter name" value="Player 1">
+                </div>
+                <div class="player-input">
+                    <label for="player2Name">Player 2 Name:</label>
+                    <input type="text" id="player2Name" placeholder="Enter name" value="Player 2">
+                </div>
+            </div>
+            <button id="startBtn" class="btn-start">Start Game</button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="gameScreen" class="screen">
+            <div class="scoreboard">
+                <div class="player-score" id="player1Score">
+                    <h3 id="player1NameDisplay"></h3>
+                    <div class="score">💰 <span id="p1Score">0</span> points</div>
+                </div>
+                <div class="current-turn">
+                    <span id="currentPlayer"></span>'s Turn
+                </div>
+                <div class="player-score" id="player2Score">
+                    <h3 id="player2NameDisplay"></h3>
+                    <div class="score">💰 <span id="p2Score">0</span> points</div>
+                </div>
+            </div>
+
+            <div class="question-info">
+                <div class="difficulty-badge" id="difficultyBadge">Easy</div>
+                <div class="question-number">Question <span id="questionNum">1</span>/15</div>
+            </div>
+
+            <div class="question-container">
+                <div class="question" id="question"></div>
+            </div>
+
+            <div class="answers-container" id="answersContainer">
+                <!-- Answers will be inserted here -->
+            </div>
+
+            <div class="lifelines">
+                <button class="lifeline-btn" id="fiftyFifty" title="50:50 - Remove 2 wrong answers">
+                    <span class="lifeline-icon">🎲</span> 50:50
+                </button>
+                <button class="lifeline-btn" id="skipQuestion" title="Skip this question">
+                    <span class="lifeline-icon">⏭️</span> Skip
+                </button>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="endScreen" class="screen">
+            <h2>🏆 Game Over! 🏆</h2>
+            <div class="final-scores">
+                <div class="final-score">
+                    <h3 id="finalPlayer1Name"></h3>
+                    <div class="final-points">💰 <span id="finalP1Score">0</span> points</div>
+                </div>
+                <div class="winner-announcement" id="winnerAnnouncement"></div>
+                <div class="final-score">
+                    <h3 id="finalPlayer2Name"></h3>
+                    <div class="final-points">💰 <span id="finalP2Score">0</span> points</div>
+                </div>
+            </div>
+            <button id="playAgainBtn" class="btn-start">Play Again</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
